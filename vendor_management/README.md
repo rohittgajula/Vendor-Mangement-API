@@ -44,19 +44,19 @@ For authentication add - " Bearer {your access token} "
 #### Get all vendors
 
 ```http
-  GET /api/vendors/
+GET /api/vendors/
 ```
 
 #### To create vendor
 
 ```http
-  POST /api/vendors/
+POST /api/vendors/
 ```
 
 #### Get vendor
 
 ```http
-  GET /api/vendors/<str:vendor_id>/
+GET /api/vendors/<str:vendor_id>/
 ```
 
 | Parameter | Type     | Description                       |
@@ -66,7 +66,7 @@ For authentication add - " Bearer {your access token} "
 #### update vendor
 
 ```http
-  PUT /api/vendors/<str:vendor_id>/
+PUT /api/vendors/<str:vendor_id>/
 ```
 
 | Parameter | Type     | Description                       |
@@ -76,7 +76,7 @@ For authentication add - " Bearer {your access token} "
 #### delete vendor
 
 ```http
-  delete /api/vendors/<str:vendor_id>/
+delete /api/vendors/<str:vendor_id>/
 ```
 
 | Parameter | Type     | Description                       |
@@ -87,13 +87,13 @@ For authentication add - " Bearer {your access token} "
 #### Get all Purchase orders
 
 ```http
-  GET /api/purchase_orders/
+GET /api/purchase_orders/
 ```
 
 #### To create vendor
 
 ```http
-  POST /api/purchase_orders/
+POST /api/purchase_orders/
 ```
 
 #### Get single purchase order
