@@ -130,10 +130,10 @@ GET /api/vendors/<str:vendor_id>/performance/
 
 #### get access to auth token
 ```http
-GET api/token/
+GET /api/token/
 ```
 #### get access to refresh token
 ```http
-GET api/token/refresh/
+GET /api/token/refresh/
 ```
 
