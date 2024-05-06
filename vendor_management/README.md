@@ -29,6 +29,15 @@ Run the server
 python3 manage.py runserver
 ```
 
+Use swagger url for better user interaction
+```
+http://127.0.0.1:8000/swagger/
+```
+
+To login through swagger authorize, login with Admin credentials and login in token auth url
+
+For authentication add - " Bearer {your access token} "
+
 
 ## API Reference
 
@@ -118,3 +127,13 @@ GET /api/vendors/<str:vendor_id>/performance/
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
 | `vendor_id`| `string` | **Required**. id of the vendor    |
+
+#### get access to auth token
+```http
+  GET api/token/
+```
+#### get access to refresh token
+```http
+  GET api/token/refresh/
+```
+
