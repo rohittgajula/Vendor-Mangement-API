@@ -76,7 +76,7 @@ PUT /api/vendors/<str:vendor_id>/
 #### delete vendor
 
 ```http
-delete /api/vendors/<str:vendor_id>/
+DELETE /api/vendors/<str:vendor_id>/
 ```
 
 | Parameter | Type     | Description                       |
